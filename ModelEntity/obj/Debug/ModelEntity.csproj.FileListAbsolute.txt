@@ -1,0 +1,5 @@
+C:\Users\Srikanth\source\repos\GTVProject\ModelEntity\bin\Debug\ModelEntity.dll
+C:\Users\Srikanth\source\repos\GTVProject\ModelEntity\bin\Debug\ModelEntity.pdb
+C:\Users\Srikanth\source\repos\GTVProject\ModelEntity\obj\Debug\ModelEntity.csprojAssemblyReference.cache
+C:\Users\Srikanth\source\repos\GTVProject\ModelEntity\obj\Debug\ModelEntity.dll
+C:\Users\Srikanth\source\repos\GTVProject\ModelEntity\obj\Debug\ModelEntity.pdb

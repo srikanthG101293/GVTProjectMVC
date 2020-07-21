@@ -1,0 +1,55 @@
+﻿@model ModelEntity.ProjectModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2></h2>
+        @if (Model.ProjectParams.Count > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Project Title</th>
+                        <th>Project Descrption</th>
+                        <th>Task Title</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for (var item = 0; item < Model.ProjectParams.Count; item++)
+                    {
+                    <tr>
+                        <td>@Model.ProjectParams[item].ProjectName</td>
+                        <td>@Model.ProjectParams[item].ProjectDescription</td>
+                        <td>@Model.ProjectParams[item].TaskTitle</td>
+                        <td>@Model.ProjectParams[item].TaskHours</td>
+                    </tr>
+                    }                               
+                </tbody>
+            </table>
+        }
+        else
+        {
+    <span>Click here to add project tasks </span>
+        }
+        <a type="button" class="btn btn-primary" href="/Projects/AddProjectTask">Add Project Task</a>
+        </div>
+
+
+</body>
+</html>

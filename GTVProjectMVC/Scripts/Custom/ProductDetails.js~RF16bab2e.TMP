@@ -1,0 +1,32 @@
+﻿
+//declare Variables
+var taskTitle = '', taskHours = 0, ProjectID = 0;
+
+$("#").click(function () {
+    taskTitle = $('#txtTaskTitle').val();
+    if (taskTitle == "") {
+    }
+    taskHours = $('#ddlProject').val();
+    ProjectID = $('#txtHours').val();
+
+    $.ajax({
+        url: "/Projects.ashx",
+        type: "Post",
+        dataType: "json",
+        data: {
+            type: 1,
+            season: $('#ddlseason').val(),
+            seasonYear: 
+
+        },
+        success: function (res) {
+            SeasonSeasonYear_val = res.seasonID;
+
+        },
+        error: function (res, err) {
+            console.log(res);
+            console.log(err);
+        }
+    });
+
+});

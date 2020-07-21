@@ -1,0 +1,10 @@
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\bin\Debug\ModelEntity.dll
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\bin\Debug\ModelEntity.pdb
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\obj\Debug\BussinessLayer.csprojAssemblyReference.cache
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\obj\Debug\BussinessLayer.csproj.CopyComplete
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\Srikanth\source\repos\GTVProject\BussinessLayer\obj\Debug\BussinessLayer.pdb

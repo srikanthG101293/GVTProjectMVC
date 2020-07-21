@@ -1,0 +1,8 @@
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\bin\Debug\ModelEntity.dll
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\bin\Debug\ModelEntity.pdb
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Srikanth\source\repos\GTVProject\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

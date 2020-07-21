@@ -1,0 +1,46 @@
+﻿@model GTVProjectMVC.Models.ProjectTask
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    @using (Html.BeginForm("ProjectsDisplay", "Home", FormMethod.Post))
+    {
+        <div class="container">
+            <h2>Add Tasks for Projects</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Task Title:</label>
+                    @*@Html.DropDownListFor(x => x.ProjectID, new SelectList(ViewBag.p, "ID", "Name"))*@
+                    <input type="email" class="form-control" id="email" placeholder="Enter Task Title" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Select Project:</label>
+                    <select type="password" class="form-control" id="pwd">
+                        <option>-Select-</option>
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Select Hours:</label>
+                    <select type="password" class="form-control" id="pwd">
+                        <option>-Select-</option>
+                    </select>
+                </div>
+                <button id="btSaveTask" class="btn btn-primary">Save Task</button>
+            </form>
+        </div>
+    }
+
+    </body>
+</html>

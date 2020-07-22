@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/GTVProject/v16/Server/sqlite3/db.lock
+*.ide
+/.vs/GTVProject/v16/Server/sqlite3/storage.ide-wal
+*.ide-shm

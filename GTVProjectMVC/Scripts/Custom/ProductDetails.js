@@ -109,7 +109,7 @@ $(document).delegate("#btnSaveProject", "click", function () {
         success: function (res) {
             res.RetVal = 1
             {
-                $("#successText").html("Project Added Added Successfully");
+                $("#successText").html("Project Added Successfully");
                 $("#txtproject").val("");
                 $("#txtdescription").val("");
                 setTimeout(function () {
